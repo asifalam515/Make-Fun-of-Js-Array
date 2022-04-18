@@ -2,7 +2,7 @@ const  arr=[12,34,35,676,343,7676];
 const n=arr[3];
 const m=arr[2];
 const x=1,y=0;
-// console.log(m,n,arr[x],arr[y],arr[x]+arr[y],arr[x+y+1]) 
+console.log(m,n,arr[x],arr[y],arr[x]+arr[y],arr[x+y+1]) 
 // array notation ba [] sign er moddhe amra jekono kisu korte pari .
 
 
