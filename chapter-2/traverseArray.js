@@ -1,4 +1,4 @@
-const  arr=[1,2,3,4,5];
+const  arr=[12,34,35,676,343,7676];
 const n=arr[3];
 const m=arr[2];
 const x=1,y=0;
@@ -8,7 +8,7 @@ const x=1,y=0;
 
 // simple traverse:
 for(let i=0;i<arr.length;i++){
-  console.log(arr[i])
+  // console.log(arr[i])
 }
 
 // arry sum and avg
@@ -25,6 +25,20 @@ for(let i=0;i<arr.length;i++){
  sum += arr[i];// sum=sum+arr[i]
 }
 
-console.log(sum)
+// console.log(sum)
 
-console.log(sum/arr.length)
+// console.log(sum/arr.length)
+
+// find out the maximum number form an array
+// first e amra ekta number ke boro dhore nibo..tarpor setar steh baki sob number ke compare korbo.compare kore je boro hobe seti hobe new largest number.evabe colte thake
+let largestNumber=arr[0]
+for (let i=0;i<arr.length;i++){
+  if(arr[i]>largestNumber){
+    largestNumber=arr[i]
+  }
+}
+console.log(largestNumber);
+
+
+// Task
+//find out  1.smallest number,second smallest number,second highest number in an array
